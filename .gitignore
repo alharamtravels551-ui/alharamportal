@@ -1,0 +1,7 @@
+node_modules
+data.json
+.vscode
+.gemini
+npm-debug.log
+error.log
+.env
