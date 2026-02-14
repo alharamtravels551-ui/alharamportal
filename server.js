@@ -5,7 +5,7 @@ const path = require("path");
 const mongoose = require("mongoose");
 
 // --- MongoDB Setup ---
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://Alharam123:<db_password>@alharam123.vyt2iu9.mongodb.net/?appName=Alharam123";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://Alharam123:<db_password>@alharam1234.vyt2iu9.mongodb.net/?appName=Alharam123";
 mongoose.connect(MONGODB_URI)
   .then(() => console.log("Connected to MongoDB"))
   .catch(err => console.error("Could not connect to MongoDB:", err));
@@ -126,3 +126,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
